@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'otgL';
+    src: url('../font/OTTOGISans_Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'otgM';
+    src: url('../font/OTTOGISans_Medium.woff') format('woff');
+}
+
+.wrap
+{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* footer */
+#footer
+{
+    width: 100%;
+    height: 274px;
+    min-width: 1280px;
+    background-color: #bf132b;
+    padding-bottom: 40px;
+}
+
+/* top_footer */
+.top_footer
+{
+    background-color: #a20a1f;
+    height: 44px;
+    padding: 10px 0;
+}
+.top_footer ul{}
+.top_footer ul li
+{
+    float: left;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.top_footer ul li:nth-child(1){padding-left: 0;}
+.top_footer ul li a
+{
+    color: #fff;
+    font: bold 20px/20px 'otgM';
+}
+
+/* bottom_footer */
+.bottom_footer
+{
+    margin-top: 38px;
+}
+
+/* bf_left */
+.bf_left
+{
+    width: 70%;
+    float: left;
+    color: #fff;
+}
+.bf_left .bf_h4
+{
+    font: bold 16px 'otgM';
+    margin-bottom: 5px;
+}
+.bf_left address
+{
+    font-size: 14px;
+}
+.bf_left .bf_h5
+{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* bf_right */
+.bf_right
+{
+    width: 30%;
+    float: right;
+    position: relative;
+}
+
+.bf_right select
+{
+    width: 55%;
+    height: 50px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    font: 16px/18px 'otgL';
+    color: #555;
+    background: #fff url(../img/select_family.png) no-repeat 90%;
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.bf_right select option{}
+.bf_right .bf_icon
+{
+    height: 50px;
+    bottom: -47px;
+    right: -170px;
+    position: relative;
+}
+
+.nblog
+{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    background: url('../img/icons.png') no-repeat;
+    width: 32px;
+    height: 27px;
+    background-size: 500px auto;
+    background-position: -16px -97px;
+    float: left;
+    content: '';
+    cursor: pointer;
+}
+.fb
+{
+    position: absolute;
+    top: 20px;
+    left: 113px;
+    background: url('../img/icons.png') no-repeat;
+    width: 32px;
+    height: 27px;
+    background-size: 500px auto;
+    background-position: -48px -95px;
+    float: left;
+    content: '';
+    cursor: pointer;
+}
+.insta
+{
+    position: absolute;
+    top: 20px;
+    left: 165px;
+    background: url('../img/icons.png') no-repeat;
+    width: 32px;
+    height: 27px;
+    background-size: 500px auto;
+    background-position: -90px -97px;
+    float: left;
+    content: '';
+    cursor: pointer;
+}
